@@ -2,10 +2,10 @@ while True:
     print("Pilih Program\n1. Penjumlahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian\n5. Exit")
     pilih = int(input("Masukkan Pilihan: "))
     if pilih == 5:
-        print('Terimakasih, telah menggunakan kalkulator Bruno Alif Fernandes Van Persie')
+        print("Terimakasih, telah menggunakan kalkulator Ahmad Reza Alfayiet")
         break
     elif pilih>5 or pilih<=0:    
-        print('Input anda salah, silahkan coba lagi\n')
+        print("Input anda salah, silahkan coba lagi\n")
         continue
     else:
         n1 = float(input("Masukkan nilai pertama: "))
@@ -18,4 +18,4 @@ while True:
             hasil=n1*n2; pilih2=("perkalian")
         elif pilih == 4:
             hasil=n1/n2; pilih2=("pembagian")
-    print('Hasil %s antara %.2f dengan %.2f adalah %.2f \n'%(pilih2, n1, n2, hasil))
+    print("Hasil %s antara %.2f dengan %.2f adalah %.2f \n"%(pilih2, n1, n2, hasil))

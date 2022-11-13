@@ -14,7 +14,7 @@ int mutlak(int angka){
 int main()
 { 
     int a,b,c,d,Hasil;
-    scanf("%d %d %d %d", &a, &b, &c, &d);
+    scanf("%d %d %d %d", &a, &c, &b, &d);
     Hasil = hitung(a,b) + hitung(c,d); 
     printf("%d",mutlak(Hasil));
     return 0;

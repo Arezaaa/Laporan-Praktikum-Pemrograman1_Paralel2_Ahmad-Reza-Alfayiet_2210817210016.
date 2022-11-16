@@ -13,4 +13,5 @@ int main()
     printf ("Sisi C   = %.f cm\n", alas);
     printf ("Keliling = %.f cm\n", alas + tinggi + B);
     printf ("Luas     = %.f cm^2\n", (alas * tinggi) / 2);
+    return 0;
 }

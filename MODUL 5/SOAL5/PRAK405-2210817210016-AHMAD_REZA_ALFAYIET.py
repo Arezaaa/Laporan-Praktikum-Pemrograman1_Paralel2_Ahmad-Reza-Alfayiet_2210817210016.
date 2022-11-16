@@ -1,7 +1,6 @@
 n,kelipatan = input().split(); n = int(n); kelipatan = int(kelipatan)
 
-hasil1 = 0; hasil2 = 0; total = 0
-i = 0
+hasil1 = 0; hasil2 = 0; total = 0;i = 0
 while i < n :
     i += 1
     j = i

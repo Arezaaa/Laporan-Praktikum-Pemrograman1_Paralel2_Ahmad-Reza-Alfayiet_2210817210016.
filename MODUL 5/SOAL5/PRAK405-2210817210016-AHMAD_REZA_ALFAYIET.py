@@ -1,4 +1,4 @@
-n,kelipatan = input().split(); n = int(n); kelipatan = int(kelipatan)
+n,kelipatan = map(int, input().split())
 
 hasil1 = 0; hasil2 = 0; total = 0;i = 0
 while i < n :

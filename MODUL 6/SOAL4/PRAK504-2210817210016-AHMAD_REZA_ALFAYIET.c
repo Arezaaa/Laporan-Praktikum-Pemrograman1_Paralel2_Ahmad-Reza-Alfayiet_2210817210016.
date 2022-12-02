@@ -16,4 +16,5 @@ A=reverse(A);
 B=reverse(B);
 int C = A+B; 
 printf("%d",reverse(C));
+return 0;
 }
